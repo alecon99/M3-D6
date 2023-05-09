@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg_jumbotron {
+    background-color: #754FFE;
+}
+
+.text_size_button {
+    font-size: 1.1em;
+}
+
+.bg_jb_icon {
+    background-color: #FFEEDA ;
+}
+
+.bg_jb_icon > .material-symbols-outlined {
+    color: #D69650;
+}
+
+.ring_icon {
+    width: 35px;
+    height: 35px;
+    background-color: #eeeaf8;
+    color: #a27dff;
+}
+
+/* stars row */
+.stars .material-symbols-rounded{
+    color: #ffaa22;
+    width: 18px;
+    font-size: 20px !important;
+}
+.score{
+    color: #ffaa22;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+/* price barrato */
+.lineThrough{
+    text-decoration: line-through;
+    font-weight: 500;
+    color: gray;
+}
+
+/* footer */
+@media only screen and (min-width: 768px){
+    .footerA{
+        text-align: left !important;
+    }
+    
+}
+
+/* account background img */
+.user_icon {
+    background-image: url(assets/avatar-1.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon:hover{
+    transform: scale(1.02);
+}
+.windowClose{
+    display: none;
+}
+.window{
+    display: block;
+    width: 260px;
+    background-color: rgb(246, 246, 246);
+    right: 0px;
+    top: 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    border: 1px solid rgb(230, 230, 230);
+}
+
+/* background images */
+.user_icon1 {
+    background-image: url(assets/avatar-2.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon2 {
+    background-image: url(assets/avatar-3.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon3 {
+    background-image: url(assets/avatar-4.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon4 {
+    background-image: url(assets/avatar-5.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon5 {
+    background-image: url(assets/avatar-6.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon6 {
+    background-image: url(assets/avatar-7.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon7 {
+    background-image: url(assets/avatar-8.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+.user_icon8 {
+    background-image: url(assets/avatar-1.jpg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+}
+
+.bookmark_icon {
+    color: grey;
+    cursor: pointer;
+}
+
+/* responsive card mobile version */
+@media only screen and (max-width: 480px) {
+    .card-body{
+        font-size: 0.6rem;
+    }
+    .icons span{
+        font-size: 0.7rem;
+    }
+    .stars .material-symbols-rounded, .text-secondary {
+        font-size: 0.7rem !important;
+    }
+    .stars .score {
+        font-size: 0.7rem !important;
+    }
+}
+
+/* animation hover cards */
+.card-animation:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px -5px #0000007d;
+}
